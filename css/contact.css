@@ -1,0 +1,188 @@
+#contact {
+    background-color:#F3F3F3  ;
+    padding-top: 208px;
+}
+.contact-us{
+    width: 864px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.contact-text {
+    width: 511px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+
+.contact-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+}
+.contact-card-mini {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 328px;
+    height: 333px;
+    background: #FFFFFF;
+}
+.contact-card-mini:hover,
+.contact-card-mini:hover h5,
+.contact-card-mini:hover button,
+.contact-card-mini:hover path,
+.contact-card-mini:hover a {
+    background:#252B42;
+    color: #FFFFFF;
+    border-color:#FFFFFF;
+    fill: #FFFFFF;
+}
+.contact-card-mini svg {
+    padding-bottom: 15px;
+}
+.contact-card-mini h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-card-mini a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.contact-card-mini button {
+    background-color: transparent;
+    width: 160px;
+    height: 44px;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+}
+.contact-card-mini button a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+}
+
+.contact-input {
+    background: #FAFAFA;
+}
+.contact-input-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    height: 50px;
+    width: 1050px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #E0E0E0;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.email-1 {
+    height: 50px;
+    width: 1050px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+
+}
+.tel {
+    height: 50px;
+    width: 1050px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+
+}
+.comment {
+    resize: none;
+    height: 156px;
+    width: 1050px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 20px;
+
+}
+.select {
+    height: 50px;
+    width: 1050px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 59px;
+}
+.contact-button {
+    width: 163px;
+    height: 58px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #FFA62B;
+    margin-bottom: 98px;
+}
+.contact-button:hover {
+    width: 163px;
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+}
+.contact-button a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color:#FFA62B;
+}
+.contact-button:hover a {
+    color: #FFFFFF;
+}

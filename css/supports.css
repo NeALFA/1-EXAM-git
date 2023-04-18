@@ -1,0 +1,50 @@
+#supports {
+    background-color:#FAFAFA;
+    height: 404px;
+}
+.supports-icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.supports-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px;
+    background: #16697A;
+    border-radius: 2px;
+}
+
+.supports-text h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.submit a {
+    color:white;
+}
+.email {
+    width: 450px;
+    height: 58px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -10px;
+    padding-left: 20px;
+}
+.submit {
+    width: 117px;
+    height: 58px;
+    background: #FFA62B;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+}

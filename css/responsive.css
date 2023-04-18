@@ -1,0 +1,78 @@
+@media (max-width: 1000px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+    }
+    
+    header {
+        background-color: #FAFAFA;
+        position: sticky;
+        top: 0;
+        z-index: 15;
+    }
+    .hamburger {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+    }
+    .close {
+        display: block;
+        position: absolute;
+        top: -47px;
+        right: 20px;
+        background-color: transparent;
+        border: none;
+    }
+    .nav-item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+    .nav-list {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        bottom: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F6F6F6;
+        transition:  0.5s;
+    }
+    .home-card {
+        padding-left: 10px;
+        width: 90%;
+    }
+    .supports-icon {
+        width: 90%;
+    }
+    .supports-text {
+        width: 90%;
+    }
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .business-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .name,
+    .email-1,
+    .tel,
+    .comment,
+    .select {
+        width: 82%;
+        margin-left:0px;
+    }
+}

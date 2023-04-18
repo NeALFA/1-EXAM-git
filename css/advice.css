@@ -1,0 +1,86 @@
+#advice {
+    background-color: #FAFAFA;
+    padding-top: 205px;
+}
+.advice-us{
+    width: 864px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.advice-text {
+    width: 511px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.advice-text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.advice-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+}
+
+.advice-card-mini {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 230px;
+    height: 321px;
+    gap: 10px;
+    background: #FFFFFF;
+}
+
+.advice-card-mini h2 {
+    order: 10;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    
+    padding-left: 29px;
+    padding-top: 30px;
+}
+.advice-card-mini p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    
+    padding-left: 29px;
+    padding-bottom: 30px;
+    
+}
+.advice-card-mini img {
+    object-position: contain;
+}
